@@ -13,7 +13,7 @@ Subjects that were covered:
 
 ## Semester 4
 
-- Formal languages ([source code](4-system-programming-practice))  
+- System programming ([source code](4-system-programming-practice))  
   I have developed light Data Base Management System, including query parser and DB engine.  
   Supported types of queries and data types you can find in the practice's [README.md](4-system-programming-practice/README.md)).
 
