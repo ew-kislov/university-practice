@@ -1,0 +1,30 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:sailor": "node dist/sailor/index.js",
+    "start:sailor:dev": "ts-node src/sailor/index.ts",
+    "start:sailor:watch": "nodemon src/sailor/index.ts --ignore '*.json' --exec ts-node src/sailor/index.ts",
+    "start:friend": "node dist/friend/index.js",
+    "start:friend:dev": "ts-node src/friend/index.ts",
+    "start:friend:watch": "nodemon src/friend/index.ts --ignore '*.json' --exec ts-node src/friend/index.ts",
+    "start:friendsStarter": "node dist/friend/friendsStarter.js",
+    "start:friendsStarter:dev": "ts-node src/friend/friendsStarter.ts",
+    "start:friendsStarter:watch": "nodemon src/friend/friendsStarter.ts --ignore '*.json' --exec ts-node src/friend/friendsStarter.ts",
+    "build": "npm run build:clear && tsc -p .",
+    "build:clear": "rimraf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.8.2",
+    "nodemon": "^2.0.7",
+    "tsc": "^2.0.3"
+  }
+}

@@ -1,0 +1,4 @@
+{
+    "totalJobsLimit": 20,
+    "jobsPerQueueLimit": 5
+}

@@ -1,0 +1,31 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "node dist/client/index.js",
+    "start:client:dev": "ts-node src/client/index.ts",
+    "start:client:watch": "nodemon src/client/index.ts --ignore '*.json' --exec ts-node src/client/index.ts",
+    "start:server": "node dist/server/master.js",
+    "start:server:dev": "ts-node src/server/master.ts",
+    "start:server:watch": "nodemon src/server/master.ts --ignore '*.json' --exec ts-node src/server/worker.ts",
+    "start:worker": "node dist/server/worker.js",
+    "start:worker:dev": "ts-node src/server/worker.ts",
+    "start:worker:watch": "nodemon src/server/worker.ts --ignore '*.json' --exec ts-node src/server/worker.ts",
+    "build": "npm run build:clear && tsc -p .",
+    "build:clear": "rimraf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "typescript": "^4.3.4",
+    "xml-stream": "^0.4.5"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.8.2",
+    "nodemon": "^2.0.7",
+    "tsc": "^2.0.3"
+  }
+}

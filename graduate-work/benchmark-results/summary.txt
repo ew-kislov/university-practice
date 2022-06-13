@@ -1,0 +1,13 @@
+Stats:
+
+1. SLURM backfill
+
+Average queued time for job: 42.8099173553719
+50% percentille queued time for job: 46
+95% percentille queued time for job: 83
+
+2. GLURMO Backfill
+
+Average queued time for job: 29.041825095057035
+50% percentille queued time for job: 29
+95% percentille queued time for job: 66

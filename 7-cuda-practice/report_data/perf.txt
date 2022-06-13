@@ -1,0 +1,34 @@
+General performance fixes(only calculations performance)
+
+Initial version
+
+one big  - 0.602816
+8 small  - 0.26464
+
+Unrolled arrays
+
+one big  - 0.54472
+8 small  - 0.216864
+
+Divide input array to r,g,b arrays
+
+one big  - 0.541745
+8 small  - 0.213487
+
+Shared memory
+
+one big  - 0.498944
+8 small  - 0.19292
+
+
+
+
+Small pictures performance fixes(only transport time)
+
+Initial version
+
+4.83
+
+After async cuda calls + streams
+
+3.64963

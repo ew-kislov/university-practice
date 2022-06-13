@@ -1,0 +1,5 @@
+{
+    "broadcastQueue": "sailors.broadcast",
+    "broadcastQueueReal": "sailors.broadcast.real",
+    "totalSailors": 4
+}

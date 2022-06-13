@@ -1,0 +1,4 @@
+{
+    "maxWaitingTimeMs": 2000,
+    "shipQueue": "ship.forcast"
+}

@@ -1,0 +1,8 @@
+{
+    "maxSailors": 5,
+    "sailorLatencyDistribution": [1, 1, 1, 1, 1],
+    "baseLatencyMs": 300,
+    "sailorInitQueue": "sailor.init",
+    "targetQueuePrefix": "sailor.target.",
+    "shipQueue": "ship.forcast"
+}
