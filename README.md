@@ -19,10 +19,10 @@ Here I post all the practices I've completed during studying in Moscow State Uni
   I have developed 2D engine with range of facilities - animation, UI system, resources upload system, map loader, etc.  
   I have also developed 2D game using my engine. You can find video of gameplay in the practice's [README.md](6-opengl-practice/README.md)).  
 
-- Ray tracing practice ([source code](6-ray-traycing-practice))  
-  I have developed ray traycer which uses path tracing technique. The project doesn't use third-party libraries, all math and other operations were implemented by myself.  
+- Ray tracing practice ([source code](6-ray-tracing-practice))  
+  I have developed ray tracer which uses path tracing technique. The project doesn't use third-party libraries, all math and other operations were implemented by myself.  
   Ray tracer was optimized by parallelizing cast of rays into the same point.  
-  Example of rendered image you can find in the practice's [README.md](6-ray-tracing-practice/README.md)).  
+  You can find example of rendered image in the practice's [README.md](6-ray-tracing-practice/README.md)).  
 
 ## Semester 7
 
@@ -38,12 +38,13 @@ Here I post all the practices I've completed during studying in Moscow State Uni
 ## Semester 8
 
 - Graph generator practice ([source code](7-cuda-practice))  
-  I have implemented parallel graph generation, applying jobs pool approach. std::threads were used for parallel computing.
+  I have implemented parallel graph generation, applying jobs pool approach and using std::threadsfor parallel computing.
 
 ## Other works
 
 - Graph generation algorithms ([source code](other-graph-generation-algorithms))  
   This practice was dedicated to researching various graph generation algorithms and research of possibilities or their parallelization.  
 
-## Graduade work - "Jobs Scheduler for Supercomputer Lomonosov-2" ([source code](graduate-work))  
-  I have implemented jobs scheduler for my university supercomputer and put it into production environment. As a result, my scehduler showed 20% effeciency compared to previous job scheduler working on sipercomputer Lomonosov-2.  
+## Graduade work - "Jobs Scheduler for Lomonosov-2 Supercomputer" ([source code](graduate-work))  
+  I have implemented jobs scheduler for my university supercomputer and put it into production environment.
+  As a result, my scehduler showed 20% effeciency compared to previous job scheduler working on supercomputer Lomonosov-2.  
