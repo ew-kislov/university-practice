@@ -60,30 +60,30 @@
 
 ### Sockets library
 
-- BaseSocket - Abstract base class  
-- ServerSocket  
-- ClientSocket  
-- SocketException  
+- `BaseSocket` - Abstract base class  
+- `ServerSocket`  
+- `ClientSocket`  
+- `SocketException`  
 
 ### Engine
 
-- DataType \<- Number, Varcher - supported types  
-- Table, TableField, TableRow - table structure classes  
-- TableIO - interface for low-level file I/O    
-- Engine - namespace providing interface for engine interaction    
-- EngineException, EngineStatusEnum  
+- `DataType` \<- `Number`, `Varcher` - supported types  
+- `Table`, `TableField`, `TableRow` - table structure classes  
+- `TableIO` - interface for low-level file I/O    
+- `Engine` - namespace providing interface for engine interaction    
+- `EngineException`, `EngineStatusEnum`  
 
 ### Query parser
 
-- LexicParser  
-- QueryParse  
-- QueryParserException, QueryStatusEnum  
+- `LexicParser`  
+- `QueryParse`  
+- `QueryParserException`, `QueryStatusEnum`  
 
 ### Query executor
 
-- condition_tree/* - WHERE-clause processing  
-- QueryObject \<- SelectObject, InsertObject, ... - query internal representation  
-- QueryResult \<- SelectQueryResult, InsertQueryResult, ... - query result representation    
+- `condition_tree/*` - WHERE-clause processing  
+- `QueryObject` \<- `SelectObject`, `InsertObject`, ... - query internal representation  
+- `QueryResult` \<- `SelectQueryResult`, `InsertQueryResult`, ... - query result representation    
 
 ## Before running
 
