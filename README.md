@@ -2,9 +2,18 @@
 
 Here I post all the practices I've completed during studying in Moscow State University, department of Computational Mathematics and Cybernetics.
 
+Subjects that were covered:  
+- System programming - C/C++, low-level I/O, network programming(socket API)  
+- Parallel computations - POSIX threads, STD threads, OpenMP, OpenMPI, Nvidia CUDA  
+- Grahics programming on CPU and GPU  
+- Profiling and optimizing C/C++ code  
+- Mathematical models and algorithms  
+- Distributed systems and distributed algorithms  
+- Software engineering patterns  
+
 ## Semester 4
 
-- Formal languages ([source code](4-formal-languages-practice))  
+- Formal languages ([source code](4-system-programming-practice))  
   I have developed light Data Base Management System, including query parser and DB engine.  
   Supported types of queries and data types you can find in the practice's [README.md](4-formal-languages-practice/README.md)).
 
